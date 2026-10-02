@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pokédex</h1>
+        <input type="text" id="searchInput" placeholder="Search Pokémon...">
+    </header>
+
+    <main>
+        <p id="loading">Loading Pokémon...</p>
+
+        <div id="pokemonGrid"></div>
+
+        <p id="noResults" class="hidden">No Pokémon found.</p>
+
+        <div id="pagination">
+            <button id="prev" disabled>Previous</button>
+            <span id="pageInfo"></span>
+            <button id="next">Next</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
