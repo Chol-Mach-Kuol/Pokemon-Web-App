@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f0f0f0;
-    color: #333;
+    background: whitesmoke;
+    color: darkslategray;
 }
 
 header {
-    background: #3d6b9e;
+    background: steelblue;
     color: white;
     text-align: center;
     padding: 30px 20px;
@@ -73,11 +73,11 @@ main {
     font-size: 15px;
     text-transform: capitalize;
     margin: 8px 0 12px;
-    color: #222;
+    color: #222; /* no exact named match */
 }
 
 .card button {
-    background: #3d6b9e;
+    background: steelblue;
     color: white;
     border: none;
     padding: 8px 16px;
@@ -87,7 +87,7 @@ main {
 }
 
 .card button:hover {
-    background: #2f5480;
+    background: darkslateblue;
 }
 
 .ability {
@@ -106,7 +106,7 @@ main {
 }
 
 #pagination button {
-    background: #3d6b9e;
+    background: steelblue;
     color: white;
     border: none;
     padding: 9px 20px;
@@ -116,11 +116,11 @@ main {
 }
 
 #pagination button:hover:not(:disabled) {
-    background: #2f5480;
+    background: darkslateblue;
 }
 
 #pagination button:disabled {
-    background: #ccc;
+    background: lightgray;
     cursor: default;
 }
 
